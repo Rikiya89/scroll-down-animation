@@ -17,7 +17,7 @@ body {
 }
 
 
-
+/* マウス mouse */
 .mouse {
     width: 25px;
     height: 50px;
@@ -36,6 +36,7 @@ body {
     animation: move-wheel 1s linear infinite;
 }
 
+/* マウスホイールアニメーション mouse wheel animation*/
 @keyframes move-wheel {
     0% {
         opacity: 0;
